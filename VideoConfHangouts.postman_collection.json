@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "bca82459-f6a4-42a0-921b-f104f2b0bce6",
+		"name": "VideoConfHangouts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/event/new",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"local\":\"localteste\",\n\t\"medico\":\"drauzio varela\",\n\t\"paciente\":\"navarro\",\n\t\"inicio\":\"2020-03-20T09:00:00-03:00\",\n\t\"fim\":\"2020-03-20T23:50:00-03:00\"\t\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/event/new",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/event/list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/event/list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"event",
+						"list"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
