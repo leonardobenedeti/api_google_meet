@@ -149,7 +149,7 @@ function createEvent(auth, request, response){
       'createRequest': {
         'requestId': 'testeUHG',
         'conferenceSolutionKey': {
-          'type': 'eventHangout'
+          'type': 'hangoutsMeet'
         }
       },
       
