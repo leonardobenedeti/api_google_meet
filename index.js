@@ -147,7 +147,7 @@ function createEvent(auth, request, response){
     },
     'conferenceData': {
       'createRequest': {
-        'requestId': 'testeUHG',
+        'requestId': 'testeXPTO',
         'conferenceSolutionKey': {
           'type': 'eventHangout'
         }
